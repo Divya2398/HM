@@ -9,7 +9,6 @@ import appSettings from "./App_Settings/app.router.js";
 
 import Appointment from "./Appointment/appointment.router.js";
 
-import DoctorLog from "./DoctorLog/Doctorlog.router.js";
 import Contact_us from "./Contact_us/contact.router.js";
 import Report from "./Report/Report.router.js";
 
@@ -19,7 +18,7 @@ app.use("/departements", Departments);
 app.use("/specialist", Specialist);
 app.use("/appSettings", appSettings);
 app.use("/appointment", Appointment);
-app.use("/doctorlog", DoctorLog);
+
 app.use("/contact", Contact_us);
 app.use("/reports", Report);
 export default app;
